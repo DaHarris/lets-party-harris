@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LetsParty</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item"><%= link_to 'Home', root_path %></li>
+        <li class="navbar-item"><%= link_to 'About', root_path %></li>
+        <li class="navbar-item"><%= link_to 'Account', root_path %></li>
+      </ul>
+    </div>
+  </div>
+
+
+<%= yield %>
+
+</body>
+</html>
