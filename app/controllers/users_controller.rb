@@ -1,10 +1,7 @@
 class UsersController < ApplicationController
 
-  def login
-    @user = User.new
-  end
 
-  def register
+  def new
     @user = User.new
   end
 
@@ -12,6 +9,13 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     @user.save
     redirect_to root_path, :notice => 'User was successfully created.'
+  end
+
+
+  private
+
+  def user_params
+    params.require(:user).permit(:username, :email, :password_digest, :friends)
   end
 
 end

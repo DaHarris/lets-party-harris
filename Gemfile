@@ -7,8 +7,8 @@ gem 'rails', '4.2.0'
 #use postgresql
 gem 'pg'
 
-#skeleton framework
-gem 'skeleton-rails'
+#foundation framework
+gem 'foundation-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

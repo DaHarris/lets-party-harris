@@ -1,5 +1,77 @@
-/*
-*= require base
-*= require layout
-*= require skeleton
-*/
+/*= require foundation */
+
+  body {
+    background-image: url('/eom-background4.jpg');
+  }
+
+  .large-4 {
+    margin-top: 200px;
+  }
+
+  /*body {
+    background-color: #F6EFEE;
+  }
+
+  img {
+    opacity: 0.3;
+  }
+
+  p {
+    font-family: 'Raleway', sans-serif;
+    color: #F6EFEE;
+  }
+
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #F6EFEE;
+  }
+
+  h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #F6EFEE;
+  }
+
+  .side-nav {
+    margin-top: 200px;
+  }
+
+  a {
+    font-family: 'Raleway', sans-serif;
+    color: #F6EFEE;
+    text-decoration: none;
+    line-height: inherit;
+    color: #F6EFEE;
+
+  }
+
+  .divider {
+    color: #F6EFEE;
+  }
+
+  .large-3 {
+    height: 1000px;
+    background-color: #233D4D ;
+    margin-left: 25px;
+  }
+
+  .sidebar {
+    margin-left: 35px;
+  }*/
+
+  /*.title-area {
+    margin-left: 550px;
+  }
+
+  .contain-to-grid {
+    opacity: .5;
+  }
+
+  .top-bar {
+    opacity: 0;
+  }*/
+
+  /*.container {
+      height: 100%;
+      background-color: #F6EFEE;
+      margin-left: 250px;
+  }*/
