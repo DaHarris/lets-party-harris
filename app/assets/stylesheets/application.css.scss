@@ -1,85 +1,5 @@
 /*= require foundation */
 
-  @media only screen and (max-device-width: 480px) {
-
-    body {
-      background-image: asset-url('/eom-background4.jpg');
-    }
-
-    .container {
-      height: 100%;
-    }
-
-    .dropdown {
-      float: right;
-      margin-top: 35px;
-      margin-right: 65px;
-    }
-
-    .icon {
-      margin-top: 35px;
-      margin-left: 65px;
-    }
-
-    .case-inner {
-      opacity: 0.94;
-      background-color: #F7F7F7;
-      margin-top: 400px;
-      height: 100%;
-      width: 100%;
-    }
-
-    .panel {
-      opacity: 0.94;
-    }
-
-    ::-webkit-input-placeholder {
-      font-family: 'Raleway', sans-serif;
-    }
-
-    :-moz-placeholder { /* Firefox 18- */
-      font-family: 'Raleway', sans-serif;
-    }
-
-    ::-moz-placeholder {  /* Firefox 19+ */
-      font-family: 'Raleway', sans-serif;
-    }
-
-    :-ms-input-placeholder {
-      font-family: 'Raleway', sans-serif;
-    }
-
-
-    p {
-      font-family: 'Raleway', sans-serif;
-      color: #F6EFEE;
-    }
-
-    h1 {
-      font-family: 'Raleway', sans-serif;
-      color: #F6EFEE;
-    }
-
-    h3 {
-      font-family: 'Raleway', sans-serif;
-      color: #F6EFEE;
-    }
-
-    h6 {
-      font-family: 'Raleway', sans-serif;
-      color: #F6EFEE;
-    }
-
-    .button {
-      font-family: 'Raleway', sans-serif;
-    }
-
-    a {
-      font-family: 'Raleway', sans-serif;
-    }
-
-  }
-
   body {
     background-image: asset-url('/eom-background4.jpg');
   }
@@ -92,15 +12,23 @@
     height: 100%;
   }
 
-  .dropdown {
+  .dropnav {
     float: right;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-right: 65px;
+  }
+
+  .dropnav:hover {
+    opacity: 0.7;
   }
 
   .icon {
     margin-top: 35px;
     margin-left: 65px;
+  }
+
+  .icon:hover {
+    opacity: 0.7;
   }
 
   .case-inner {
@@ -158,4 +86,16 @@
 
   a {
     font-family: 'Raleway', sans-serif;
+  }
+
+  //****************************************//
+  //             MOBILE SETTINGS            //
+  //****************************************//
+
+  @media only screen and (max-device-width: 480px) {
+
+    .large-4 {
+      margin-top: 0px;
+    }
+
   }
