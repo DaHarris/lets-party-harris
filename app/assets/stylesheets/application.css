@@ -14,9 +14,35 @@
 
   img {
     opacity: 0.3;
+  }*/
+
+  .panel {
+    opacity: 0.94;
   }
 
+  ::-webkit-input-placeholder {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    font-family: 'Raleway', sans-serif;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+    font-family: 'Raleway', sans-serif;
+  }
+
+  :-ms-input-placeholder {
+    font-family: 'Raleway', sans-serif;
+  }
+
+
   p {
+    font-family: 'Raleway', sans-serif;
+    color: #F6EFEE;
+  }
+
+  h1 {
     font-family: 'Raleway', sans-serif;
     color: #F6EFEE;
   }
@@ -31,19 +57,24 @@
     color: #F6EFEE;
   }
 
+  .button {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /*
   .side-nav {
     margin-top: 200px;
-  }
+  }*/
 
   a {
     font-family: 'Raleway', sans-serif;
-    color: #F6EFEE;
-    text-decoration: none;
-    line-height: inherit;
-    color: #F6EFEE;
-
+    /*color: #F6EFEE;*/
+    /*text-decoration: none;
+    line-height: inherit;*/
+    /*color: #F6EFEE;*/
   }
 
+  /*
   .divider {
     color: #F6EFEE;
   }

@@ -1,4 +1,4 @@
-<%= form_tag login_path do %>
+<%= form_for @user do |f| %>
   <div class="large-4 large-centered columns">
     <div class="panel">
       <div class="login-box">
@@ -7,7 +7,7 @@
             <form>
               <div class="row">
                 <div class="large-12 columns">
-                  <h1 class="text-center">Lets Party!</h1>
+                  <h1 class="text-center">New User</h1>
                   <hr>
                   <% if notice %>
                     <p class="text-center">
@@ -19,27 +19,28 @@
               </div>
                <div class="row">
                  <div class="large-12 columns">
-                   <%= password_field_tag :username, params[:username], placeholder: 'Username' %>
+                   <%= f.text_field :username, placeholder: 'Username' %>
+                     <!-- <input type="text" name="username" placeholder="Username" /> -->
                  </div>
                </div>
-               <!-- <div class="row">
+               <div class="row">
                  <div class="large-12 columns">
-                     <input type="text" name="email" placeholder="Email" />
+                   <%= f.email_field :email, placeholder: 'Email' %>
                  </div>
-               </div> -->
+               </div>
                 <div class="row">
                    <div class="large-12 columns">
-                     <%= password_field_tag :password, params[:password], placeholder: 'Password' %>
+                     <%= f.password_field :password, placeholder: 'Password' %>
                    </div>
                 </div>
               <div class="row">
                 <div class="large-12 large-centered columns">
-                  <%= submit_tag 'Login', class: 'button expand' %>
+                  <%= f.submit 'Sign up!', class: 'button expand'%>
                 </div>
               </div>
               <div class="row">
                 <div class="text-center">
-                  <%= link_to 'Sign up', new_user_path %>
+                  <%= link_to 'Log in', root_path %>
                 </div>
               </div>
             </form>
