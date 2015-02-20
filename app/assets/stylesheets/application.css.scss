@@ -1,5 +1,85 @@
 /*= require foundation */
 
+  @media only screen and (max-device-width: 480px) {
+
+    body {
+      background-image: asset-url('/eom-background4.jpg');
+    }
+
+    .container {
+      height: 100%;
+    }
+
+    .dropdown {
+      float: right;
+      margin-top: 35px;
+      margin-right: 65px;
+    }
+
+    .icon {
+      margin-top: 35px;
+      margin-left: 65px;
+    }
+
+    .case-inner {
+      opacity: 0.94;
+      background-color: #F7F7F7;
+      margin-top: 400px;
+      height: 100%;
+      width: 100%;
+    }
+
+    .panel {
+      opacity: 0.94;
+    }
+
+    ::-webkit-input-placeholder {
+      font-family: 'Raleway', sans-serif;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+      font-family: 'Raleway', sans-serif;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+      font-family: 'Raleway', sans-serif;
+    }
+
+    :-ms-input-placeholder {
+      font-family: 'Raleway', sans-serif;
+    }
+
+
+    p {
+      font-family: 'Raleway', sans-serif;
+      color: #F6EFEE;
+    }
+
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      color: #F6EFEE;
+    }
+
+    h3 {
+      font-family: 'Raleway', sans-serif;
+      color: #F6EFEE;
+    }
+
+    h6 {
+      font-family: 'Raleway', sans-serif;
+      color: #F6EFEE;
+    }
+
+    .button {
+      font-family: 'Raleway', sans-serif;
+    }
+
+    a {
+      font-family: 'Raleway', sans-serif;
+    }
+
+  }
+
   body {
     background-image: asset-url('/eom-background4.jpg');
   }
@@ -30,14 +110,6 @@
     height: 100%;
     width: 100%;
   }
-
-  /*body {
-    background-color: #F6EFEE;
-  }
-
-  img {
-    opacity: 0.3;
-  }*/
 
   .panel {
     opacity: 0.94;
@@ -84,48 +156,6 @@
     font-family: 'Raleway', sans-serif;
   }
 
-  /*
-  .side-nav {
-    margin-top: 200px;
-  }*/
-
   a {
     font-family: 'Raleway', sans-serif;
-    /*color: #F6EFEE;*/
-    /*text-decoration: none;
-    line-height: inherit;*/
-    /*color: #F6EFEE;*/
   }
-
-  /*
-  .divider {
-    color: #F6EFEE;
-  }
-
-  .large-3 {
-    height: 1000px;
-    background-color: #233D4D ;
-    margin-left: 25px;
-  }
-
-  .sidebar {
-    margin-left: 35px;
-  }*/
-
-  /*.title-area {
-    margin-left: 550px;
-  }
-
-  .contain-to-grid {
-    opacity: .5;
-  }
-
-  .top-bar {
-    opacity: 0;
-  }*/
-
-  /*.container {
-      height: 100%;
-      background-color: #F6EFEE;
-      margin-left: 250px;
-  }*/
