@@ -4,6 +4,9 @@ class PartiesController < ApplicationController
   def home
   end
 
+  def options
+  end
+
   private
 
   def logged_in

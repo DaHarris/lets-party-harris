@@ -13,7 +13,9 @@
   <div class="container">
     <% if current_user %>
       <a href="/"><img src="icon.png", class="icon", height="64", width="64"></a>
-      <a href='/options'><img src="dropdown.png", class="dropnav", height="50", width="50"></a>
+      <% if "#{request.fullpath}" != '/options' %>
+        <a href='/options'><img src="dropdown.png", class="dropnav", height="50", width="50"></a>
+      <% end %>
     <% end %>
     <%= yield %>
 

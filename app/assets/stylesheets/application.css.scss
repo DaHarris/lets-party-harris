@@ -84,6 +84,14 @@
     font-family: 'Raleway', sans-serif;
   }
 
+  .button.expand.secondary {
+    opacity: 1;
+  }
+
+  .options-form {
+    margin-top: 100px;
+  }
+
   a {
     font-family: 'Raleway', sans-serif;
   }
@@ -95,6 +103,10 @@
   @media only screen and (max-device-width: 480px) {
 
     .large-4 {
+      margin-top: 0px;
+    }
+
+    .options-form {
       margin-top: 0px;
     }
 
