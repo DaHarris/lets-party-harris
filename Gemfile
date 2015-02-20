@@ -36,7 +36,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
 #for heroku css problems
-group :product, :staging do
+group :production, :staging do
   gem 'rails_12factor'
 end
 
