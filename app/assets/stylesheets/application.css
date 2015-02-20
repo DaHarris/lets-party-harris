@@ -1,7 +1,7 @@
 /*= require foundation */
 
   body {
-    background-image: url('/eom-background4.jpg');
+    background: url('/eom-background4.jpg');
   }
 
   .large-4 {
