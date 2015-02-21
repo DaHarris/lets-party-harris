@@ -14,9 +14,15 @@
     min-width: 400px;
   }
 
-  .panel.map {
-    height: 400px;;
+  // .panel.map {
+  //   height: 400px;
+  //   width: 100%;
+  // }
+
+  .map.holder {
+    height: 400px;
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .container {
@@ -91,12 +97,26 @@
     color: #F6EFEE;
   }
 
+  a {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .button a {
+    font-family: 'Raleway', sans-serif;
+    color: #F6EFEE;
+  }
+
   .button {
     font-family: 'Raleway', sans-serif;
   }
 
   .button.expand.secondary {
     opacity: 1;
+  }
+
+  .panel.options {
+    margin-top: 100px;
+    padding-bottom: 0px;
   }
 
   .options-form {
@@ -107,9 +127,6 @@
     margin-top: 25px;
   }
 
-  a {
-    font-family: 'Raleway', sans-serif;
-  }
 
   //****************************************//
   //             MOBILE SETTINGS            //
