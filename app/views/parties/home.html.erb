@@ -1,2 +1,21 @@
-<div class="case-inner">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbfwduDnnaFqHrk7ui_VKXXjx9cPFFMhU"
+  type="text/javascript"></script>
+
+<div class="map form">
+  <div class="large-6 large-centered columns">
+    <div class="panel map">
+      <div id="map-canvas" style="width: 100%; height: 100%"></div>
+    </div>
+    <div class="panel">
+      <div class="button expand secondary">
+        <% if !partying %>
+          <h1><%= link_to "Let's Party!", party_path %></h1>
+        <% else %>
+          <h1><%= link_to "Stop Partying", stop_path %></h1>
+        <% end %>
+      </div>
+    </div>
+  </div>
 </div>
+<!-- <div class="case-inner">
+</div> -->

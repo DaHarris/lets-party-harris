@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   post 'login' => 'sessions#create'
   get 'logout' => 'sessions#destroy'
   get 'options' => 'parties#options'
+  get 'party' => 'parties#party'
+  get 'stop' => 'parties#stop'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

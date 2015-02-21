@@ -7,6 +7,16 @@ class PartiesController < ApplicationController
   def options
   end
 
+  def party
+    session[:partying] = true
+    redirect_to home_path, notice: "Let's Party!"
+  end
+
+  def stop
+    session[:partying] = false
+    redirect_to home_path, notice: "Stopped Partying"
+  end
+
   private
 
   def logged_in
