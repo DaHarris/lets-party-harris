@@ -3,12 +3,12 @@
 <div class="map form">
   <div class="large-6 large-centered columns">
     <div class="panel">
-      <!-- <div class="panel map"> -->
       <div class="map holder">
         <div id="map-canvas" style="width: 100%; height: 100%"></div>
+        <script type="text/javascript">
+          go();
+        </script>
       </div>
-      <!-- </div> -->
-      <!-- <div class="panel"> -->
       <div class="button expand">
         <% if !partying %>
           <h1><%= link_to "Let's Party!", party_path %></h1>
@@ -16,11 +16,6 @@
           <h1><%= link_to "Stop Partying", stop_path %></h1>
         <% end %>
       </div>
-      <!-- <button onclick="getLocation()">Try It</button>
-      <h1 id="latlng"></h1> -->
-      <!-- </div> -->
     </div>
   </div>
 </div>
-<!-- <div class="case-inner">
-</div> -->
