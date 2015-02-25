@@ -5,15 +5,15 @@ Rails.application.routes.draw do
   resources :users
 
   # You can have the root of your site routed with "root"
-  root 'parties#home'
+  root 'parties#new'
 
-  get 'home' => 'parties#home'
+  get 'home' => 'parties#new'
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
   get 'logout' => 'sessions#destroy'
   get 'options' => 'parties#options'
-  get 'party' => 'parties#party'
-  get 'stop' => 'parties#stop'
+  post 'party' => 'parties#create'
+  get 'stop' => 'parties#destroy'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
